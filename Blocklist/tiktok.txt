@@ -1,16 +1,23 @@
 # Lista para bloquear totalmente o acesso ao tiktok em sua rede.
 # Se você deseja continuar usando o tiktok, adicione esta lista que bloqueia apenas domínios de anúncio / rastreamento: https://raw.githubusercontent.com/llacb47/mischosts/master/tiktok-hosts
+mssdk-va.tiktokv.com
+webcast22-normal-c-useast1a.tiktokv.com
+carrierflow-va.tiktokv.com
 log22-normal-useast1a.tiktokv.com
-webcast22-normal-c-useast1a.tiktokv.com	
-hotapi-va.tiktokv.com		
-pull-hls-w5-va01.tiktokcdn.com	
-pull-lls-l11.tiktokcdn.com	
-pull-rtmp-f1-va01.tiktokcdn.com	
-rtlog22-normal-useast1a.tiktokv.com	
-jsb16-normal-c-useast1a.tiktokv.com	
-rtlog16-normal-useast1a.tiktokv.com	
-tnc16-platform-useast1a.tiktokv.com	
-carrierflow-va.tiktokv.com	
+pull-hls-f11-gcp01.tiktokcdn.com
+push-rtmp-l1-gcp01.tiktokcdn.com
+pull-hls-w16-va01.tiktokcdn.com
+pull-hls-q16-gcp01.tiktokcdn.com
+pull-hls-f1-va01.tiktokcdn.com
+pull-flv-f11-ab.tiktokcdn.com
+hotapi-va.tiktokv.com
+pull-hls-w5-va01.tiktokcdn.com
+pull-lls-l11.tiktokcdn.com
+pull-rtmp-f1-va01.tiktokcdn.com
+rtlog22-normal-useast1a.tiktokv.com
+jsb16-normal-c-useast1a.tiktokv.com
+rtlog16-normal-useast1a.tiktokv.com
+tnc16-platform-useast1a.tiktokv.com
 log16-normal-useast1a.tiktokv.com
 # ===============================================================
 # https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/TikTok/tiktokblocklist.txt
@@ -36,7 +43,7 @@ log16-normal-useast1a.tiktokv.com
 0.0.0.0 app.musemuse.cn
 0.0.0.0 share.musemuse.cn
 ^log.*tiktokv.com
-(\.|^)tiktok\.com$
+(.|^)tiktok.com$
 (^|.)muscdn.com$
 (^|.)musical.ly$
 (^|.)tiktok.com$
