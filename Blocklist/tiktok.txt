@@ -1,3 +1,45 @@
+# Lista para bloquear totalmente o acesso ao tiktok em sua rede.
+# Se você deseja continuar usando o tiktok, adicione esta lista que bloqueia apenas domínios de anúncio / rastreamento: https://raw.githubusercontent.com/llacb47/mischosts/master/tiktok-hosts
+# ===============================================================
+# https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/TikTok/tiktokblocklist.txt
+0.0.0.0 tiktok.com
+0.0.0.0 tiktok.org
+0.0.0.0 tiktokcdn.com
+0.0.0.0 tiktokv.com
+0.0.0.0 muscdn.com
+0.0.0.0 musical.ly
+0.0.0.0 musically.ly
+0.0.0.0 v16-tiktokcdn-com.akamaized.net
+0.0.0.0 mon.byteoversea.com
+0.0.0.0 mon-va.byteoversea.com
+0.0.0.0 abtest-va-tiktok.byteoversea.com
+0.0.0.0 p16.hypstarcdn.com
+0.0.0.0 sf-tb-sg.ibytedtos.com
+0.0.0.0 xlog-va.byteoversea.com
+0.0.0.0 dm-maliva16.byteoversea.com
+0.0.0.0 dm.bytedance.com
+0.0.0.0 sgali3.l.byteoversea.net
+0.0.0.0 tiktokcdn-com.akamaized.net
+0.0.0.0 ibytedtos.com
+0.0.0.0 app.musemuse.cn
+0.0.0.0 share.musemuse.cn
+(^|.)muscdn.com$
+(^|.)musical.ly$
+(^|.)tiktok.com$
+(^|.)tiktok.org$
+(^|.)tiktokcdn.com$
+# https://coygeek.com/docs/pihole-tiktok/#to-add-to-piholes-blacklist
+# regex expression tiktok wildcard
+bytedance.com
+byteoversea.com
+ibytedtos.com
+ibyteimg.com
+muscdn.com
+musemuse.cn
+musical.ly
+tiktok.com
+tiktokcdn.com
+tiktokv.com
 # https://raw.githubusercontent.com/superover/TikTok-Blocklist/master/tiktok.txt
 api2-16-h2-eagle-useast2a.musical.ly.lan
 api2-16-h2-eagle.musical.ly.lan
@@ -20,7 +62,6 @@ mpak-sinc1.akamaized.net
 mpak-ssgc1.akamaized.net
 mpak-suse1.akamaized.net
 p16-sg-default.akamaized.net
-p16-tiktokcdn-com.akamaized.net
 p16-va-default.akamaized.net
 s16-hypstarcdn-com.akamaized.net
 v16-tiktokcdn-com.akamaized.net
@@ -129,8 +170,6 @@ webcast3-ws-c-hl.amemv.com
 webcast3-ws-c-lf.amemv.com
 webcast3-ws-c-lq.amemv.com
 www.amemv.com
-musically.app.link
-musically-alternate.app.link
 app-measurement.com
 dynamic-comm.snssdk.com.bdgslb.com
 p9-ad.bytecdn.cn.bsgslb.com
@@ -181,7 +220,6 @@ v16m.byteicdn.com
 v19.byteicdn.com
 www.byteicdn.com
 p9-security.byteimg.com
-byteoversea.com
 abtest-sg.byteoversea.com
 abtest-sg-tiktok.byteoversea.com
 abtest-va.byteoversea.com
@@ -361,7 +399,6 @@ api16-core-c-useast2a.musical.ly.edgekey.net
 api16-normal-c-useast1a.musical.ly.edgekey.net
 api16-normal-c-useast2a.musical.ly.edgekey.net
 api2.musical.ly.edgekey.net
-api2-16-h2.musical.ly.edgekey.net
 api2-16-h2-eagle.musical.ly.edgekey.net
 api2-16-h2-eagle-useast2a.musical.ly.edgekey.net
 api2-16-h2-useast2a.musical.ly.edgekey.net
@@ -428,7 +465,6 @@ p16-sg-default.edgesuite.net
 sf16-sg-default.edgesuite.net
 bytedance.map.fastly.net
 h1.bytedance.map.fastly.net
-video.h1.bytedance.map.fastly.net
 ttopencdn.gshifen.com
 p.hypstarcdn.com
 p16.hypstarcdn.com
@@ -548,7 +584,6 @@ v19.muscdn.com
 v24.muscdn.com
 app.musemuse.cn
 share.musemuse.cn
-musical.ly
 api-s1-quic.musical.ly
 api16-core-c-useast1a.musical.ly
 api16-core-c-useast2a.musical.ly
@@ -759,7 +794,6 @@ rc.snssdk.com
 security.snssdk.com
 varticle-frontier.snssdk.com
 verify.snssdk.com
-tiktok.com
 ads.tiktok.com
 analytics.tiktok.com
 m.tiktok.com
@@ -797,7 +831,6 @@ v16m.tiktokcdn.com
 v19.tiktokcdn.com
 v21.tiktokcdn.com
 v24.tiktokcdn.com
-tiktokv.com
 api.tiktokv.com
 api-core-va.tiktokv.com
 api-h2.tiktokv.com
@@ -983,35 +1016,7 @@ aliyuncs.com
 21cn.com
 cmbchina.com
 ixigua.com
-
-#https://coygeek.com/docs/pihole-tiktok/#to-add-to-piholes-blacklist
-# tiktok single
-api2-16-h2.musical.ly.edgekey.net
-bytedance.map.fastly.net
-musically-alternate.app.link
-musically.app.link
-p16-tiktokcdn-com.akamaized.net
-video.h1.bytedance.map.fastly.net
-
-# regex expression tiktok wildcard
-bytedance.com
-byteoversea.com
-ibytedtos.com
-ibyteimg.com
-muscdn.com
-musemuse.cn
-musical.ly
-tiktok.com
-tiktokcdn.com
-tiktokv.com
-
 # https://translate.google.com/website?sl=auto&tl=pt&nui=1&u=https://raw.githubusercontent.com/llacb47/mischosts/master/social/tiktok-block
-
-
-# Use esta lista para bloquear totalmente o acesso ao tiktok em sua rede.
-# Nota: esta lista irá bloquear o acesso a / interromper outros produtos e aplicativos Bytedance.
-# Se você deseja continuar usando o tiktok, adicione esta lista que bloqueia apenas domínios de anúncio / rastreamento: https://raw.githubusercontent.com/llacb47/mischosts/master/tiktok-hosts
-
 0.0.0.0 bytedance.akadns.net
 0.0.0.0 dsa-video.traffic.bytedance.akadns.net
 0.0.0.0 bytegeo.akadns.net
@@ -1056,7 +1061,6 @@ tiktokv.com
 0.0.0.0 p16-tiktokcdn-com.akamaized.net
 0.0.0.0 p16-va-default.akamaized.net
 0.0.0.0 s16-hypstarcdn-com.akamaized.net
-0.0.0.0 v16-tiktokcdn-com.akamaized.net
 0.0.0.0 v16m-default.akamaized.net
 0.0.0.0 pstatp.com.m.alikunlun.com
 0.0.0.0 p3-live-cdn.pstatp.com.m.alikunlun.com
@@ -1451,7 +1455,6 @@ tiktokv.com
 0.0.0.0 admin.bytedance.com
 0.0.0.0 b-kds.bytedance.com
 0.0.0.0 cognition-va.bytedance.com
-0.0.0.0 dm.bytedance.com
 0.0.0.0 kds.bytedance.com
 0.0.0.0 kds-mva.bytedance.com
 0.0.0.0 kds-sg.bytedance.com
@@ -1718,7 +1721,6 @@ tiktokv.com
 0.0.0.0 abtest-sg.byteoversea.com
 0.0.0.0 abtest-sg-tiktok.byteoversea.com
 0.0.0.0 abtest-va.byteoversea.com
-0.0.0.0 abtest-va-tiktok.byteoversea.com
 0.0.0.0 aliva-sentry.byteoversea.com
 0.0.0.0 ammp.byteoversea.com
 0.0.0.0 api21-test.byteoversea.com
@@ -1734,7 +1736,6 @@ tiktokv.com
 0.0.0.0 dispatch.byteoversea.com
 0.0.0.0 dm.byteoversea.com
 0.0.0.0 dm-maliva-quic.byteoversea.com
-0.0.0.0 dm-maliva16.byteoversea.com
 0.0.0.0 dm-sg-quic.byteoversea.com
 0.0.0.0 dm16.byteoversea.com
 0.0.0.0 dm16-alisg.byteoversea.com
@@ -1783,8 +1784,6 @@ tiktokv.com
 0.0.0.0 log16.byteoversea.com
 0.0.0.0 lts-ns.byteoversea.com
 0.0.0.0 maliva-mcs.byteoversea.com
-0.0.0.0 mon.byteoversea.com
-0.0.0.0 mon-va.byteoversea.com
 0.0.0.0 mon-va-useast2a.byteoversea.com
 0.0.0.0 mssdk-sg.byteoversea.com
 0.0.0.0 musereview.byteoversea.com
@@ -1900,7 +1899,6 @@ tiktokv.com
 0.0.0.0 wj.byteoversea.com
 0.0.0.0 xlog.byteoversea.com
 0.0.0.0 xlog-o.byteoversea.com
-0.0.0.0 xlog-va.byteoversea.com
 0.0.0.0 byteoversea.net
 0.0.0.0 ad-lb-alisg.byteoversea.net
 0.0.0.0 ad-lb-maliva.byteoversea.net
@@ -1938,7 +1936,6 @@ tiktokv.com
 0.0.0.0 mtg-bkk-v1.l.byteoversea.net
 0.0.0.0 mvaali1.l.byteoversea.net
 0.0.0.0 mvaali2.l.byteoversea.net
-0.0.0.0 sgali3.l.byteoversea.net
 0.0.0.0 topbuzz-applog-alisg.l.byteoversea.net
 0.0.0.0 tt2-bkk-v1.l.byteoversea.net
 0.0.0.0 vaali1.l.byteoversea.net
@@ -2473,7 +2470,6 @@ tiktokv.com
 0.0.0.0 hypstarcdn.com
 0.0.0.0 p.hypstarcdn.com
 0.0.0.0 p15.hypstarcdn.com
-0.0.0.0 p16.hypstarcdn.com
 0.0.0.0 p16-sg.hypstarcdn.com
 0.0.0.0 p16-test.hypstarcdn.com
 0.0.0.0 p16-va.hypstarcdn.com
@@ -2517,7 +2513,6 @@ tiktokv.com
 0.0.0.0 v16m.hypstarcdn.com
 0.0.0.0 v19.hypstarcdn.com
 0.0.0.0 www.hypstarcdn.com
-0.0.0.0 ibytedtos.com
 0.0.0.0 lf-hs-sg.ibytedtos.com
 0.0.0.0 lf-tb-sg.ibytedtos.com
 0.0.0.0 lf-tk-sg.ibytedtos.com
@@ -2529,7 +2524,6 @@ tiktokv.com
 0.0.0.0 o-sg.ibytedtos.com
 0.0.0.0 o-us.ibytedtos.com
 0.0.0.0 sf-hs-sg.ibytedtos.com
-0.0.0.0 sf-tb-sg.ibytedtos.com
 0.0.0.0 sf-tk-sg.ibytedtos.com
 0.0.0.0 sf16-cgfe-sg.ibytedtos.com
 0.0.0.0 sf16-cgfe-va.ibytedtos.com
@@ -2896,7 +2890,6 @@ tiktokv.com
 0.0.0.0 tiktokcdn.com.w.kunlunsl.com
 0.0.0.0 v3.tiktokcdn.com.w.kunlunsl.com
 0.0.0.0 liteshopads.com
-0.0.0.0 muscdn.com
 0.0.0.0 bkbd-awsjp16-up.muscdn.com
 0.0.0.0 bkbd-maliva16-up.muscdn.com
 0.0.0.0 channel.muscdn.com
@@ -3005,13 +2998,10 @@ tiktokv.com
 0.0.0.0 v9-vcheckout.muscdn.com
 0.0.0.0 www.muscdn.com
 0.0.0.0 musemuse.cn
-0.0.0.0 app.musemuse.cn
 0.0.0.0 app-test.musemuse.cn
 0.0.0.0 s.musemuse.cn
-0.0.0.0 share.musemuse.cn
 0.0.0.0 share-test.musemuse.cn
 0.0.0.0 www.musemuse.cn
-0.0.0.0 musical.ly
 0.0.0.0 activity.musical.ly
 0.0.0.0 api.musical.ly
 0.0.0.0 api-dev.musical.ly
@@ -3963,7 +3953,6 @@ tiktokv.com
 0.0.0.0 quic-awsjp16-up.byteoversea.com.srip.net
 0.0.0.0 muscdn.com.srip.net
 0.0.0.0 quic-maliva16-up.muscdn.com.srip.net
-0.0.0.0 tiktok.com
 0.0.0.0 activity.tiktok.com
 0.0.0.0 ads.tiktok.com
 0.0.0.0 analytics.tiktok.com
@@ -3999,7 +3988,6 @@ tiktokv.com
 0.0.0.0 vm.tiktok.com
 0.0.0.0 vt.tiktok.com
 0.0.0.0 www.tiktok.com
-0.0.0.0 tiktokcdn.com
 0.0.0.0 bkbd-awsjp16-up-va.tiktokcdn.com
 0.0.0.0 bkbd-maliva16-up-va.tiktokcdn.com
 0.0.0.0 lf16-geckocdn-sg.tiktokcdn.com
@@ -4217,7 +4205,6 @@ tiktokv.com
 0.0.0.0 vas.tiktokcdn.com
 0.0.0.0 vas-alisg16.tiktokcdn.com
 0.0.0.0 www.tiktokcdn.com
-0.0.0.0 tiktokv.com
 0.0.0.0 api.tiktokv.com
 0.0.0.0 api-core-va.tiktokv.com
 0.0.0.0 api-h2.tiktokv.com
@@ -4610,49 +4597,3 @@ tiktokv.com
 0.0.0.0 lf.snssdk.com.xi.zwtianshangm.com
 0.0.0.0 lf-hl.snssdk.com.xi.zwtianshangm.com
 0.0.0.0 mon.snssdk.com.xi.zwtianshangm.com
-
-#https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/TikTok/tiktokblocklist.txt
-
-# This blocklist blocks the Tik Tok traffic
-#
-# Date: 10 April 2020 00:53:00 (UTC)
-# Fetch the latest version of this file: https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/TikTok/tiktokblocklist.txt
-# Project home page: https://github.com/d43m0nhLInt3r/socialblocklists
-# ===============================================================
-
-0.0.0.0 p16-tiktokcdn-com.akamaized.net
-0.0.0.0 tiktok.com
-0.0.0.0 tiktok.org
-0.0.0.0 tiktokcdn.com
-0.0.0.0 tiktokv.com
-0.0.0.0 muscdn.com
-0.0.0.0 musical.ly
-0.0.0.0 musically.ly
-0.0.0.0 v16-tiktokcdn-com.akamaized.net
-0.0.0.0 p16-tiktokcdn-com.akamaized.net
-0.0.0.0 v16-tiktokcdn-com.akamaized.net
-0.0.0.0 mon.byteoversea.com
-0.0.0.0 mon-va.byteoversea.com
-0.0.0.0 abtest-va-tiktok.byteoversea.com
-0.0.0.0 p16.hypstarcdn.com
-0.0.0.0 sf-tb-sg.ibytedtos.com
-0.0.0.0 xlog-va.byteoversea.com
-0.0.0.0 dm-maliva16.byteoversea.com
-0.0.0.0 dm.bytedance.com
-0.0.0.0 sgali3.l.byteoversea.net
-0.0.0.0 tiktokcdn-com.akamaized.net
-0.0.0.0 ibytedtos.com
-0.0.0.0 app.musemuse.cn
-0.0.0.0 share.musemuse.cn
-
-# ===============================================================
-
-(^|\.)muscdn\.com$
-
-(^|\.)musical\.ly$
-
-(^|\.)tiktok\.com$
-
-(^|\.)tiktok\.org$
-
-(^|\.)tiktokcdn\.com$
