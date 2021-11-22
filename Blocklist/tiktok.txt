@@ -42,13 +42,16 @@ log16-normal-useast1a.tiktokv.com
 0.0.0.0 ibytedtos.com
 0.0.0.0 app.musemuse.cn
 0.0.0.0 share.musemuse.cn
-^log.*tiktokv.com
-(.|^)tiktok.com$
-(^|.)muscdn.com$
-(^|.)musical.ly$
-(^|.)tiktok.com$
+
+# ===============================================================
+#^log.*tiktokv.com
+#(.|^)tiktok.com$
+#(^|.)muscdn.com$
+#(^|.)musical.ly$
 (^|.)tiktok.org$
 (^|.)tiktokcdn.com$
+# ===============================================================
+
 # https://coygeek.com/docs/pihole-tiktok/#to-add-to-piholes-blacklist
 # regex expression tiktok wildcard
 bytedance.com
