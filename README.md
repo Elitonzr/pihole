@@ -1,6 +1,6 @@
 # pihole
 Alguns sites para consultar sobre pihole
 
-Tutorial:
+Site Oficial: https://pi-hole.net
 
-Instalação e adição de blocklist https://coygeek.com/docs/pihole-raspberry
+Tutorial de Instalação e adição de blocklist https://coygeek.com/docs/pihole-raspberry
