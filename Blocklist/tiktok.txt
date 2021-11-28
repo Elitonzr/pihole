@@ -3473,7 +3473,7 @@ ixigua.com
 0.0.0.0 app-beta.snssdk.com
 0.0.0.0 applog.snssdk.com
 0.0.0.0 autolua.snssdk.com
-0.0.0.0 automação.snssdk.com
+0.0.0.0 automation.snssdk.com
 0.0.0.0 aweme.snssdk.com
 0.0.0.0 aweme-bee.snssdk.com
 0.0.0.0 aweme-bee-hl.snssdk.com
@@ -4354,7 +4354,7 @@ ixigua.com
 0.0.0.0 search21-normal-c-alisg.tiktokv.com
 0.0.0.0 tnc16-alisg.tiktokv.com
 0.0.0.0 tnc16-useast1a.tiktokv.com
-0.0.0.0 indisponível.tiktokv.com
+0.0.0.0 unavailable.tiktokv.com
 0.0.0.0 v.tiktokv.com
 0.0.0.0 v16.tiktokv.com
 0.0.0.0 v16-up.tiktokv.com
